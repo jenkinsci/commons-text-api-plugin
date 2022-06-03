@@ -41,9 +41,3 @@ Replace the dependency to `org.apache.commons:commons-text` with the dependency 
       ...
     </dependencies>
     ```
-
-### Change Log
-
-#### Version 1.9.0 (June TBC, 2022)
-- First release
-- Discussed in [[PR#1979](https://github.com/jenkinsci/configuration-as-code-plugin/pull/1979#discussion_r887891629)].

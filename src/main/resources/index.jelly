@@ -4,5 +4,5 @@
   <br/>
   Usage will slim downstream plugin.
   <br/>
-  Provides org.apache.commons:commons-text:${commons-text.version}.
+  Provides org.apache.commons:commons-text:${revision}.
 </div>

@@ -9,7 +9,7 @@ commons-text-api Plugin
 
 This plugin provides [Commons Text v1.x](https://commons.apache.org/proper/commons-text/) to Jenkins Plugins.<br>
 
-Version will be "&lt;commons-text version&gt;.&lt;plugin version&gt;", so clear what upstream dependency it is offering and plugin can be patch by "plugin version" if required.
+Version will be "&lt;commons-text version&gt;-&lt;plugin version&gt;", so clear what upstream dependency it is offering and plugin can be patch by "plugin version" if required.
 
 ## How to introduce to your plugin
 
@@ -36,7 +36,7 @@ Replace the dependency to `org.apache.commons:commons-text` with the dependency 
       <dependency>
         <groupId>io.jenkins.plugins</groupId>
         <artifactId>commons-text-api</artifactId>
-        <version>1.9.0</version>
+        <version>1.9-v{latest-release}</version>
       </dependency>
       ...
     </dependencies>

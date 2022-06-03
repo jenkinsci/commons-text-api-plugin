@@ -1,0 +1,8 @@
+<?jelly escape-by-default='true'?>
+<div>
+  Jenkins Api Plugin that Bundles Apache Commons Text v1.x.
+  <br/>
+  Usage will slim downstream plugin.
+  <br/>
+  Provides org.apache.commons:commons-text:${commons-text.version}.
+</div>

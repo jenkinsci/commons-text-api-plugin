@@ -1,0 +1,6 @@
+# IDE Specific exclusions won't be included as that is developer preference and should be managed via their `.gitignore_global`
+
+target/
+work/
+
+pom.xml.versionsBackup

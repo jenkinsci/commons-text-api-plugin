@@ -8,21 +8,23 @@
     </parent>
     <groupId>io.jenkins.plugins</groupId>
     <artifactId>commons-text-api</artifactId>
-    <version>1.19.0-SNAPSHOT</version>
+    <version>${revision}-${changelist}</version>
     <packaging>hpi</packaging>
     <properties>
-        <commons-text.version>1.9</commons-text.version>
         <jenkins.version>2.289.1</jenkins.version>
+        <revision>1.9</revision>
+        <changelist>999999-SNAPSHOT</changelist>
+        <gitHubRepo>jenkinsci/commons-text-api-plugin</gitHubRepo>
     </properties>
     <name>commons-text API Plugin</name>
-    <description>Jenkins Api Plugin to provide org.apache.commons:commons-text:${commons-text.version}.</description>
+    <description>Jenkins Api Plugin to provide org.apache.commons:commons-text:${revision}.</description>
     <url>https://github.com/jenkinsci/commons-text-api-plugin</url>
     <dependencyManagement>
         <dependencies>
             <dependency>
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-text</artifactId>
-                <version>${commons-text.version}</version>
+                <version>${revision}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
@@ -58,9 +60,9 @@
         </license>
     </licenses>
     <scm>
-        <connection>scm:git:https://github.com/jenkinsci/${project.artifactId}-plugin.git</connection>
-        <developerConnection>scm:git:git@github.com:jenkinsci/${project.artifactId}-plugin.git</developerConnection>
-        <url>https://github.com/jenkinsci/${project.artifactId}-plugin</url>
+        <connection>scm:git:https://github.com/${gitHubRepo}.git</connection>
+        <developerConnection>scm:git:git@github.com:${gitHubRepo}.git</developerConnection>
+        <url>https://github.com/${gitHubRepo}</url>
     </scm>
     <repositories>
         <repository>

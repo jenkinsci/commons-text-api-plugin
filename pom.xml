@@ -14,7 +14,7 @@
         <commons-text.version>1.9</commons-text.version>
         <jenkins.version>2.289.1</jenkins.version>
     </properties>
-    <name>commons-text v1.x Jenkins Api Plugin</name>
+    <name>commons-text API Plugin</name>
     <description>Jenkins Api Plugin to provide org.apache.commons:commons-text:${commons-text.version}.</description>
     <url>https://github.com/jenkinsci/commons-text-api-plugin</url>
     <dependencyManagement>

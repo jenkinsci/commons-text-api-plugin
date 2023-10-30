@@ -12,7 +12,7 @@
     <packaging>hpi</packaging>
     <properties>
         <jenkins.version>2.387.3</jenkins.version>
-        <revision>1.10.0</revision>
+        <revision>1.11.0</revision>
         <changelist>999999-SNAPSHOT</changelist>
         <gitHubRepo>jenkinsci/commons-text-api-plugin</gitHubRepo>
     </properties>

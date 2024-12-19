@@ -11,7 +11,8 @@
     <version>${revision}-${changelist}</version>
     <packaging>hpi</packaging>
     <properties>
-        <jenkins.version>2.440.3</jenkins.version>
+        <jenkins.baseline>2.452</jenkins.baseline>
+        <jenkins.version>${jenkins.baseline}.4</jenkins.version>
         <revision>1.12.0</revision>
         <changelist>999999-SNAPSHOT</changelist>
         <gitHubRepo>jenkinsci/commons-text-api-plugin</gitHubRepo>
@@ -28,8 +29,8 @@
             </dependency>
             <dependency>
                 <groupId>io.jenkins.tools.bom</groupId>
-                <artifactId>bom-2.440.x</artifactId>
-                <version>3435.v238d66a_043fb_</version>
+                <artifactId>bom-${jenkins.baseline}.x</artifactId>
+                <version>3814.v9563d972079a_</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>

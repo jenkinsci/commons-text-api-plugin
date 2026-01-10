@@ -18,6 +18,8 @@
         <revision>1.15.0</revision>
         <changelist>999999-SNAPSHOT</changelist>
         <gitHubRepo>jenkinsci/commons-text-api-plugin</gitHubRepo>
+        <hpi.bundledArtifacts>commons-text</hpi.bundledArtifacts>
+        <hpi.strictBundledArtifacts>true</hpi.strictBundledArtifacts>
     </properties>
     <name>commons-text API Plugin</name>
     <description>Jenkins Api Plugin to provide org.apache.commons:commons-text:${revision}.</description>
